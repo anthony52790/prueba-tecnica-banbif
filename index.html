@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Solicita tu Tarjeta de Crédito y obtén S/ 400 en puntos, valido en todos los distritos de lima y callao">
+  <meta name="keywords" content="banbif, banco, tarjeta de credito">
+  <meta name="author" content="Banco Banbif">
+  <title>Solicita tu Tarjeta de Crédito y obtén S/ 400 en puntos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar mb-5">
+      <a href="/">
+        <img src="./assets/Banbif_logo.png" alt="Banbif">
+      </a>
+    </nav>
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="b-description">
+          <h1 class="b-description__title">
+            <p>Solicita tu </p>
+            <span class="d-block">Tarjeta de credito</span> 
+            y obtén <b>S/ 400</b> en puntos
+          </h1>
+        </div>
+        <div class="b-picture">
+          <div class="b-picture__banbif d-block">
+            <img src="./assets/image-person-banbif.png" alt="Banbif">
+          </div>
+          <div class="b-picture__prices">
+            <div class="b-price d-flex justify-content-center align-items-center flex-column">
+              <div class="b-price__number">S/ 200</div>
+              <div class="b-price__text">En puntos BanBif</div>
+            </div>
+            <div class="b-prices__operator d-flex justify-content-center">
+              <img src="./assets/plus.png" alt="banbif">
+            </div>
+            <div class="b-price d-flex justify-content-center align-items-center flex-column">
+              <div class="b-price__number">S/ 200</div>
+              <div class="b-price__text">En efectivo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6">
+        <div class="form">
+          <form class="row g-3 needs-validation" novalidate>
+            <h2 class="b-form__title mb-3">Descubre lo que tenemos pensado <span>Para Ti</span></h2>
+            <div class="row mb-3 px-2">
+              <div class="col-6">
+                <select class="form-select" aria-label="">
+                  <option disabled>Seleccionar</option>
+                  <option value="dni" selected>DNI</option>
+                  <option value="carnet">Carnet de extranjeria</option>
+                </select>
+              </div>
+              <div class="col-6">
+                <input type="number" class="form-control" placeholder="Número" aria-label="Número" required>
+              </div>
+            </div>
+            <div class="row mb-3 px-2">
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Correo electrónico" aria-label="Correo electrónico" required>
+              </div>
+            </div>
+            <div class="row mb-5 px-2">
+              <div class="col-12">
+                <input type="text" class="form-control" placeholder="Número de celular" aria-label="Número de celular" required>
+              </div>
+            </div>
+            <div class="form-check mb-2">
+              <input class="form-check-input" type="checkbox" value="" id="terminos" required>
+              <label class="form-check-label" for="terminos">
+                He leído y acepto los términos y condiciones. <a href="/">Ver aquí</a> 
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="tratamiento" required>
+              <label class="form-check-label" for="tratamiento">
+                He leído y acepto el uso del tratamiento de mis datos personales. <a href="/">Ver aquí</a>  
+              </label>
+            </div>
+            <div class="row mt-5">
+              <button type="submit" class="btn btn-primary btn-custom">Comencemos</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <h3>Titulo y texto de prueba.</h3>
+          <p>Hemos validado tu identidad, ahora podrás continuar con la solicitud de tu Tarjeta de Crédito.</p>
+        </div>        
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+</html>
